@@ -7,6 +7,52 @@
 body {
 	background-color: #FC3;
 }
+body {
+    background-color: #EC0076;
+    margin-left: 60px; /* Da espacio para la barra lateral */
+}
+
+h3, p {
+    text-align: center;
+}
+
+.sidebar {
+    height: 100%;  /* Abarca toda la altura de la página */
+    width: 70px;   /* Ancho del marco lateral */
+    position: fixed;  /* Fijo en la pantalla */
+    left: 0;
+    top: 0;
+    background-color: #333;  /* Color de fondo del marco */
+    padding-top: 20px;   /* Espacio arriba */
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;  /* Elimina el subrayado */
+}
+
+.sidebar a:hover {
+    background-color: #ddd;  /* Color cuando pasas el mouse */
+    color: black;  /* Cambio de color de texto */
+}
+
+img {
+    width: 275px;
+    height: 183px;
+}
+</style>
+</head>
+
+<body>
+
+    <!-- Marco lateral (sidebar) -->
+    <div class="sidebar">
+        <a href="../index.html">Inicio</a>
+    </div>
+
 </style>
 </head>
 
